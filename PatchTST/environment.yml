@@ -1,0 +1,16 @@
+name: patchtst
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=1.11.*
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.6  # for torch 1.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
